@@ -1,0 +1,176 @@
+.navbar {
+    color:rgb(36, 98, 109);
+}
+ul{
+    margin-left: 2%;
+}
+a{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 47%;
+    position: relative;
+    overflow: hidden
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.item:hover .cover {
+    opacity: 1
+}
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.item .title {
+    color: #7c7c7c;
+    font-size: 75%;
+    padding: 2%;
+}
+
+.item2 .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 47%;
+    position: relative;
+    overflow: hidden
+}
+
+.item2 .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.item2:hover .cover {
+    opacity: 1
+}
+
+.item2 .name {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.item2 .title {
+    color: #7c7c7c;
+    font-size: 60%;
+    padding: 2%;
+}
+
+.item4 .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 47%;
+    position: relative;
+    overflow: hidden
+}
+
+.item4 .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.item4:hover .cover {
+    opacity: 1
+}
+
+.item4 .name {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.item4 .title {
+    color: #7c7c7c;
+    font-size: 55%;
+    padding: 2%;
+}
+
+.item5 .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 47%;
+    position: relative;
+    overflow: hidden
+}
+
+.item5 .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.item5:hover .cover {
+    opacity: 1
+}
+
+.item5 .name {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.item5 .title {
+    color: #7c7c7c;
+    font-size: 50%;
+    padding: 2%;
+}
+form,h3{
+    padding-left:15%;
+    padding-right:15%;
+}
+h3{
+    color:rgb(36, 98, 109);
+    padding-top: 2%;
+    border-top: 4px solid rgb(0, 0, 0);
+}
+label{
+    color: black;
+}
